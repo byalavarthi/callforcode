@@ -1,0 +1,5 @@
+The problem statement is to identify contacts of coivd patients using cctv footage with face recognition.
+Face recognition would not be straightforward to use because of the masks people wear.
+So we performed transfer learning on VGGFace model to fien tune it to suit for masked face recognition.
+The system identifies the person from the footage and tracks his movements in the video tracking people whom with he came in clsoe contacts.
+Facial recognition is again used to identify those close contacts. 
